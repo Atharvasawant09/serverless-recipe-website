@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.comfort-food{
+        margin: 40px 0px 5px 40px;
+        text-decoration: underline;
+
+}
+
+.container-sec{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #cad4d2;
+    
+}
+
+.comfort-food h1{
+    margin-left: 52px;
+    margin-bottom: 276px;
+    font-size: 32px;
+    font-weight:900;
+}
+
+.food-desc p{
+    margin-right: 490px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.food-desc{
+    margin: -260px 61px;
+    padding: 4px 32px;
+}
+
+
+.intro-sec{
+    padding: 140px 0px;
+    margin: -100px 0px;
+    background-color: orange;
+}
+
+.desc-img{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.desc-img img{
+    height: 265px;
+    width: 415px;
+    margin: 39px 50px;
+}
+
+
+.box{
+    height: 329px;
+    width: 227px;
+    margin: 50px 40px;
+    padding: 10px 0px;
+    background-color: #e6f6e3;
+    box-shadow: 9px 8px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.box-img{
+    height: 100px;
+}
+
+.box-img img{
+    width: 200px;
+    height: 270px;
+    margin: 2px 13px;
+}
+.box-content{
+    margin-top: 185px;
+    margin-left: 12px;
+}
+
+.box-content span{
+    font-size: 19px;
+    font-weight: 600;
+
+}
+
+.separation{
+    margin: 10px 0;
+
+}
+
+
+

@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyPeazyBytes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav-search">
+            <div class="search-icon">
+                <input type="text" placeholder="Search EasyPeazyBytes" id="search-input" autocomplete="off">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <div class="result-box"></div>
+
+        </div>
+
+        <div class="nav-login">
+            <span>
+                <a href="http://127.0.0.1:3000/signup/signup.html#">Login</a>
+            </span>
+        </div>
+
+    </div>
+    <div class="logo-img">
+        <div class="logo"></div>
+
+    </div>
+
+    <div class="food-bar">
+        <div class="bar-ops">
+            <span><a href="http://127.0.0.1:3000/comfort-food/cf.html">Comfort Food</a></span>
+            <span><a href="http://127.0.0.1:3000/meals/meals.html">Meals</a></span>
+            <span><a href="http://127.0.0.1:3000/ingredients/ingre.html">Ingredients</a></span>
+            <span><a href="http://127.0.0.1:3002/Specials/spe.html">Specials</a></span>
+            <span><a href="http://127.0.0.1:3002/kitchen-tips/kt.html">Kitchen Tips</a></span>
+            <span><a href="http://127.0.0.1:3002/Trending/tren.html">Trending</a></span>
+            <span><a href="http://127.0.0.1:3002/Today's_special/ts.html">Today's Special</a></span>
+            <span><a href="http://127.0.0.1:3002/Popular/pop.html">Popular</a></span>
+        </div>
+    </div>
+
+    <div class="recipe-finder">
+        <div class="find-recipes">
+            <span>Find a Recipe</span>
+        </div>
+
+        <div class="dropdown">
+            <div class="select">
+                <span class="selected">Course</span>
+                <div class="caret"></div>
+            </div>
+            <ul class="menu">
+                <li class="active">Comfort Food</li>
+                <li>Meals</li>
+                <li>Ingredients</li>
+                <li>Occasion</li>
+                <li>Cuisines</li>
+                <li>Kitchen Tips</li>
+                <li>Trending</li>
+                <li>Today's Special</li>
+                <li>Popular</li>
+            </ul>
+        </div>
+
+
+        <div class="dropdown">
+            <div class="select">
+                <span class="selected">Ingredients</span>
+                <div class="caret"></div>
+            </div>
+            <ul class="menu">
+                <li class="active">Basmati Rice</li>
+                <li>Spices</li>
+                <li>Coconut Chutney</li>
+                <li>Chole</li>
+                <li>Cheese</li>
+                <li>Vegetable Oil</li>
+                <li>Salt and Pepper</li>
+                <li>Curry Leaves</li>
+                <li>Coriander</li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <div class="select">
+                <span class="selected">Method</span>
+                <div class="caret"></div>
+            </div>
+            <ul class="menu">
+                <li class="active">Air Fryer</li>
+                <li>Oven Cooked</li>
+                <li>Sheet Pan</li>
+                <li>Slow Cooked</li>
+                <li>Stove</li>
+                <li>Deep Fried</li>
+                <li>Shallow Fried</li>
+                <li>Baking</li>
+                <li>Boiling</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="food-sec">
+
+            <div class="latest  ">
+                <h2>Latest Meals</h2>
+            </div>
+            <div class="container-sec">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV6WXWLEXi5-ts2ccvTgPLYrH0034A4C1-nw&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Protein Salad</span>
+                    </div>
+
+
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBaPIH3jRFumcy26iAeKY1c8-5w78bCN4fRQ&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Pesto Pasta</span>
+                    </div>
+
+
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEu542d8wTj8JCmWRJRjrR__5oM-r6f28tIw&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Creamy Tomato Soup</span>
+                    </div>
+
+
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDEPc9mMVZjk5PWDYNKac9W6g0V6twrJji5g&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Tandoori Chicken</span>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="all-recipes">
+                <a href="http://127.0.0.1:3000/Morelat/more.html">More Latest Recipes</a>
+            </div>
+
+            <div class="latest  ">
+                <h2>Learn How To......</h2>
+            </div>
+            <div class="container-sec">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAY0ixl3PI52zGl9XfhvMpPngGSyh04ENUeQ&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Cook Soft Boiled Eggs</span>
+                    </div>
+
+
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROKG1vse73mJVp6-GK-4ecdBd0cPS1g4c5eQ&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Prepare Buttermilk</span>
+                    </div>
+
+
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbSIVM_E1HM1AEeOPPGuK5o0j4uWYjgR248A&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Make Coffee</span>
+                    </div>
+
+
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf6hJIE-UL9dqAlTCG-rt3obHxM1CpS5fr_Q&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Make Grilled Cheese Sandwich</span>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="all-recipes">
+                <a href="http://127.0.0.1:3000/More%20LHT/morelht.html">More Learn How To...</a>
+            </div>
+
+            <div class="latest  ">
+                <h2>Budget Friendly Meal Prep Ideas</h2>
+            </div>
+            <div class="container-sec">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS2Uv2rALd3IdRCf5eb3efZPsBksDzowVoxQ&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Rice and beans</span>
+                    </div>
+
+
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS74KyxcqawFPoHRxkM70ZbbuNRsRk6SkaZEA&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Vegetable Stir-Fry</span>
+                    </div>
+
+
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo-z9IoQ-u0CZIfuJGSK3WKo8ltZ3_hjEsJw&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Chana Chaat</span>
+                    </div>
+
+
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8TxZhefR1Fxy0_GYsL9fWeadR2h0uECm_lA&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Poha</span>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="all-recipes">
+                <a href="http://127.0.0.1:3000/Morebfm/bfm.html">More Ideas</a>
+            </div>
+
+
+            <div class="latest  ">
+                <h2>Latest Video</h2>
+            </div>
+            <div class="container-sec">
+                <div class="box1">
+                    <div class="box-img">
+
+
+                        <iframe id="videoFrame" width="1050" height="485" src="" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+
+            <div class="latest  ">
+                <h2>Students Paradise</h2>
+            </div>
+            <div class="container-sec">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk6YOdP2_WtdTqoqsxV1Vpxo4lpaqOmJGRsw&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Instant Ramen with Eggs</span>
+                    </div>
+
+
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0zyC95A3-U6fKqJvNtB4-8Pjq3eO61yBXXQ&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Egg Fried Rice</span>
+                    </div>
+
+
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQW6sp2sW8TOZVlxUX3KciwfWEvOvtMaOFag&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Mango Coconut Smoothie</span>
+                    </div>
+
+
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrHHqEC1Ng_U6-ggY8J07Tl9166V204hNgKQ&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>French Toast</span>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="all-recipes">
+                <a href="http://127.0.0.1:3000/MoreSP/SP.html">More Students Paradise</a>
+            </div>
+
+            <div class="latest  ">
+                <h2>EasyPeazy Uniques</h2>
+            </div>
+            <div class="container-sec">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoXr2N3Np4L0h4K_FxauPYo1WeHjmFYVwrQg&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Paneer Tikka</span>
+                    </div>
+
+
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYMzhrevCagNogSD91qPSAWQPYaMRU4LUIlIXtcYRmmTAD5xONJDWujcvp_VGgNzPZ5H4&usqp=CAU"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Neer Dosa</span>
+                    </div>
+
+
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQANiaF4FaN0J1E3pvr4tjhy3gjVAIDpj-0gA&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Potato Soup</span>
+                    </div>
+
+
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOal-6t_UkE9tyWfp747ncd8YtuAOulbGJSQ&s"
+                            alt="">
+                    </div>
+                    <div class="box-content">
+                        <span>Masala Tea</span>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="all-recipes">
+                <a href="http://127.0.0.1:3000/MoreEPU/EPU.html">More EasyPeazy Uniques</a>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="separation"></div>
+    <div class="FAQ">
+        <div class="FAQ-title">
+            <h1>Frequently Asked Questions</h1>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-item">
+                <h2 class="accordion-title">I'm a beginner in the kitchen. Where should I start?</h2>
+                <p class="accordion-answer">
+                    Start with basic recipes like salads, sandwiches, or one-pot meals. These are easy to prepare and
+                    require minimal cooking skills.
+                </p>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-title"> What are some essential kitchen tools and gadgets I should have?</h2>
+                <p class="accordion-answer">
+                    Essential kitchen tools include a chef's knife, cutting board, pots and pans, measuring cups and
+                    spoons, and basic utensils like spatulas and mixing spoons.
+                </p>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-title"> How can I make my meals healthier without sacrificing taste?</h2>
+                <p class="accordion-answer">
+                    Incorporate more vegetables, whole grains, and lean proteins into your recipes. Use herbs and spices
+                    for flavor instead of salt or unhealthy condiments.
+                </p>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-title">I'm trying to reduce food waste. Any tips for using up leftovers creatively?
+                </h2>
+                <p class="accordion-answer">
+                    Leftovers can be repurposed into new dishes like stir-fries, soups, or casseroles. You can also
+                    freeze leftovers for future meals or incorporate them into packed lunches.
+                </p>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-title">Are there options for quick and easy cleanup after cooking?</h2>
+                <p class="accordion-answer">
+                    Yes, we suggest tips for minimizing mess and simplifying cleanup in our recipes, such as using
+                    one-pot meals or lining baking sheets with parchment paper.
+                </p>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-title">What are some budget-friendly cooking tips for students or those on a tight
+                    budget?</h2>
+                <p class="accordion-answer">
+                    Plan meals in advance, buy in bulk when possible, and focus on affordable staples like beans, rice,
+                    and frozen vegetables. Avoid pre-packaged or convenience foods.
+                </p>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-title">What are some healthy and convenient snack ideas for on-the-go?</h2>
+                <p class="accordion-answer">
+                    Snack on fresh fruits, nuts, yogurt, or whole-grain crackers . These options are nutritious and
+                    portable.
+                </p>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-title"> How can I store leftover ingredients properly to prevent food waste?</h2>
+                <p class="accordion-answer">
+                    Leftover ingredients can be stored in airtight containers in the refrigerator or freezer. Be sure to
+                    label and date them for easy identification.
+                </p>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-title"> How can I save time on meal prep during busy weekdays?</h2>
+                <p class="accordion-answer">
+                    Meal prep tips include batch cooking, using pre-cut vegetables, and planning meals in advance. You
+                    can also opt for quick and easy recipes that require minimal preparation time.
+                </p>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-title"> Can I substitute certain ingredients if I don't have them on hand?</h2>
+                <p class="accordion-answer">
+                    Absolutely, we provide substitution suggestions in the recipe notes to accommodate different dietary
+                    preferences or ingredient availability.
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot-panel1">
+            <div class="foot-panel1a">
+                <img src="PBL Logo.jpg" alt="">
+                <h2>Crave More Eat More Enjoy More</h2>
+                <span>
+                    <p>
+                        "Attention, hungry minds!" Embark on a culinary adventure like no other! Welcome to our kitchen
+                        haven, where chaos meets simplicity and magic ignites! Get ready to satisfy your cravings and
+                        unleash your inner chef. Let's cook up something delicious together!!!</p>
+                </span>
+            </div>
+            <div class="foot-panel1b">
+                <ul>
+                    <p>Recipes</p>
+                    <a>Pasta</a>
+                    <a>Chicken</a>
+                    <a>Paneer</a>
+                    <a>Salad</a>
+                    <a>Ice-Cream</a>
+                </ul>
+                <div id="list">
+                    <ul>
+                        <p>About</p>
+                        <a href="http://127.0.0.1:3000/About/about.html">About Us</a>
+                        <a>FAQ's</a>
+
+                    </ul>
+                </div>
+                <div id="social-media">
+                    <ul>
+                        <p>Contact</p>
+                        <div class="flex">
+                            <a>Instagram</a>
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </div>
+                        <div class="flex">
+                            <a>Facebook</a>
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="flex">
+                            <a>Twitter</a>
+                            <i class="fa-brands fa-square-x-twitter"></i>
+                        </div>
+                        <div class="flex">
+                            <a>Pinterest</a>
+                            <i class="fa-brands fa-pinterest"></i>
+                        </div>
+                        <div class="flex">
+                            <a>youtube</a>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="foot-panel2">
+            <a> © 2024 EasyPeazyBytes. All rights reserved.</a>
+            <a>Privacy Policy</a>
+            <a>Terms & Conditions</a>
+            <a>Accessibility Statement</a>
+            <a>Accessibility Options</a>
+
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

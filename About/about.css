@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.welcome{
+    margin: 10px 45px;
+    padding: 5px 60px;
+}
+
+.welcome h1{
+    font-size: 40px;
+}
+
+.epb-desc{
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+
+.epb-desc p{
+    margin: 7px 48px;
+    padding: 5px 48px;
+    font-size: 17px;
+
+}
+
+.epb-desc h2{
+    margin: 2px 45px;
+    padding: 2px 48px;
+    font-size: 30px;
+    
+}
+
+.about-img img{
+    margin: 10px 150px;
+    padding: 10px 150px;
+
+
+}
+
+.mission{
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+
+.mission h2{
+    margin: 2px 48px;
+    padding: 2px 48px;
+    font-size: 30px;
+}
+
+.mission p{
+    margin: 7px 48px;
+    padding: 5px 48px;
+    font-size: 17px;
+}
+
+.team{
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+
+.team ul{
+    font-size: 17px;
+    margin: 12px 45px;
+    padding: 5px 45px;
+}
+
+
+
+.team h2{
+    margin: 2px 48px;
+    padding: 2px 48px;
+    font-size: 30px;
+}
+
+.team p{
+    margin: 7px 0px;
+    padding: 5px 0px;
+    font-size: 17px;
+}
+
+.approach{
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+
+.approach h2{
+    margin: 2px 48px;
+    padding: 2px 48px;
+    font-size: 30px;
+}
+
+.approach p{
+    margin: 7px 48px;
+    padding: 5px 48px;
+    font-size: 17px;
+}
+
+.follow{
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+
+.follow h2{
+    margin: 2px 48px;
+    padding: 2px 48px;
+    font-size: 30px;
+}
+
+.follow p{
+    margin: 7px 48px;
+    padding: 5px 48px;
+    font-size: 17px;
+}
