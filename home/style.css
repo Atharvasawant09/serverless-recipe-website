@@ -107,13 +107,10 @@ button .fa-solid{
     height: 160px;
     width: 160px;
     background-size: cover;
-    border: 2px solid black;
+    border: 2px solid #1b5e00;
+    border-radius: 90px;
    
 }
-/* .logo-img{
-    background-color: #e6f6e3;
-   
-} */
 
 .food-bar{
     display: flex;
@@ -194,7 +191,7 @@ button .fa-solid{
 
 .select{
     font-weight: 700;
-    background: #ffc423;
+    background: #ffbf11;
     color:#1c1c1c;
     display: flex;
     align-items: center;
@@ -280,7 +277,7 @@ button .fa-solid{
 }
 
 .active{
-    background: #ff951c;
+       background: #ff9f32;
     color: #1c1c1c;
 }
 
