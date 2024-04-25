@@ -53,6 +53,7 @@
 }
 
 .desc-img img{
+    border-radius: 30px;
     height: auto;
     width: 370px;
     margin: 10px 70px;

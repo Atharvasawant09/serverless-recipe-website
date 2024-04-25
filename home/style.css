@@ -16,10 +16,11 @@
 }
 
 .nav-search{
+    position: absolute;
     width: 315px;
-    background: white;
-    margin-left: 70px;
-    margin-top: 0px;
+    background: whitesmoke;
+    margin-left: 50px;
+    margin-top: 20px;
     border-radius: 28px;
 }
 
@@ -79,25 +80,11 @@ button .fa-solid{
     overflow-y: scroll;
 }
 
-/* .result-box {
-    border-radius: 28px;
-    position: absolute;
-    top: calc(100% + 10px);
-    width: 666px;
-    max-height: 300px;
-    overflow-y: auto;
-    background-color: white;
-    border: none;
-    outline: none;
-    z-index: 2;
-} */
-
-
-
 
 .nav-login{
-    margin-top: -45px;
-    margin-left: 1200px;
+    position: absolute;
+    margin-top: -66px;
+    margin-left: 1220px;
     left: 0;
     font-weight: 600;
     align-items: center;

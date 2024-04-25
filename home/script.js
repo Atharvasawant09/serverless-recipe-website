@@ -5,8 +5,6 @@ let available = [
     'Maharashtrain Meal',
     'Punjabi Thali',
     'Grilled Chesse Sandwich',
-    'New Year Special',
-    'Family gathering',
     'Lassi',
     'Lemonade',
     'Misal Pav',
@@ -47,6 +45,8 @@ function selectInput(list) {
     searchinput.value = list.innerHTML;
     resultbox.innerHTML = '';
 }
+
+
 
 // Dropdown Menu//
 
