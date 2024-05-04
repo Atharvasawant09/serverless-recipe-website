@@ -64,23 +64,6 @@ body{
     transition: transform .18s ease;
 }
 
-/* .box .icon-close{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #ffa000;
-    height: 45px;
-    width: 45px;
-    font-size: 2em;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom-left-radius: 20px;
-    cursor: pointer;
-    z-index: 1;
-    
-} */
 
 .form-box h2{
     font-size: 2em;
@@ -188,4 +171,12 @@ body{
 
 .login-register p a:hover{
     text-decoration: underline;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+
 }

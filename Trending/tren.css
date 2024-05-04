@@ -56,11 +56,12 @@
     border-radius: 30px;
     height: 260px;
     width: 370px;
-    margin: 25px 70px;
+    margin: 34px 75px;
 }
 
 
 .box{
+    position: relative;
     height: 350px;
     width: 227px;
     margin: 50px 40px;
@@ -95,5 +96,22 @@
 
 }
 
+.bookmark {
+    position: absolute;
+    font-size: 17px;
+    left: 199px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.fa-solid, .fas {
+    color:#8B0000;
+}
+
+.fa-solid:hover{
+    color:rgb(240, 0, 0);
+}
 
 

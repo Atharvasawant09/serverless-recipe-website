@@ -48,7 +48,7 @@ button{
     outline: none;
 }
 
-button .fa-solid{
+ .search-icon button .fa-solid{
     width: 25px;
     color: black;
     font-size: 18px;
@@ -324,6 +324,7 @@ button .fa-solid{
     font-weight: bolder;
 }
 .box{
+    position: relative;
     height: 350px;
     width: 227px;
     margin: 50px 40px;
@@ -331,6 +332,24 @@ button .fa-solid{
     background-color: #e6f6e3;
     box-shadow: 9px 8px 4px rgba(0, 0, 0, 0.1);
 
+}
+
+.bookmark {
+    position: absolute;
+    font-size: 17px;
+    left: 199px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.bookmark .fa-solid, .fas {
+    color:#8B0000;
+}
+
+.bookmark .fa-solid:hover{
+    color:rgb(240, 0, 0);
 }
 
 .box1{

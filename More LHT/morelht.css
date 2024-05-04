@@ -35,6 +35,7 @@ body{
 
 
 .box{
+    position: relative;
     height: 351px;
     width: 227px;
     margin: 50px 40px;
@@ -67,6 +68,24 @@ body{
 .separation{
     margin: 10px 0;
 
+}
+
+.bookmark {
+    position: absolute;
+    font-size: 17px;
+    left: 199px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.fa-solid, .fas {
+    color:#8B0000;
+}
+
+.fa-solid:hover{
+    color:rgb(240, 0, 0);
 }
 
 

@@ -39,7 +39,6 @@
     padding: 4px 32px;
 }
 
-
 .intro-sec{
     padding: 140px 0px;
     margin: -100px 0px;
@@ -61,6 +60,7 @@
 
 
 .box{
+    position: relative;
     height: 329px;
     width: 227px;
     margin: 50px 40px;
@@ -94,6 +94,28 @@
     margin: 10px 0;
 
 }
+
+.bookmark {
+    position: absolute;
+    font-size: 17px;
+    left: 199px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.fa-solid, .fas {
+    color:#8B0000;
+}
+
+.fa-solid:hover{
+    color:rgb(240, 0, 0);
+}
+
+
+
+
 
 
 
