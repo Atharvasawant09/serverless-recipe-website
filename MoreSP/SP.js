@@ -4,14 +4,16 @@ bookmarkButtons.forEach(function (bookmarkButton) {
         var recipeBox = event.target.closest('.box');
         if (recipeBox) {
             var recipeId = recipeBox.id;
-            var recipeName = recipeBox.querySelector('.box-content span').innerText;
+            var recipeName = recipeBox.querySelector('.box-content').innerText;
 
             if (bookmarkButton.classList.contains('bookmarked')) {
                 bookmarkButton.classList.remove('bookmarked');
                 removeBookmarkedRecipe(recipeId);
+                alert('Recipe unbookmarked: ' + recipeName); 
             } else {
                 bookmarkButton.classList.add('bookmarked');
                 saveBookmarkedRecipe(recipeId, recipeName);
+                alert('Recipe bookmarked: ' + recipeName); 
             }
         }
     });
@@ -21,7 +23,6 @@ function saveBookmarkedRecipe(recipeId, recipeName) {
     var bookmarkedRecipes = JSON.parse(localStorage.getItem('bookmarkedRecipes')) || [];
     bookmarkedRecipes.push({ id: recipeId, name: recipeName });
     localStorage.setItem('bookmarkedRecipes', JSON.stringify(bookmarkedRecipes));
-    alert('Recipe bookmarked: ' + recipeName);
 }
 
 function removeBookmarkedRecipe(recipeId) {
@@ -43,5 +44,3 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
-
-

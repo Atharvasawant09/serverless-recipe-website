@@ -154,22 +154,23 @@ var videoUrls = [
 //   // Change video every 10 seconds (10000 milliseconds)
 //   setInterval(changeVideo, 1000);
 
-
-//Bookmark
+//bookmark
 var bookmarkButtons = document.querySelectorAll('.bookmark');
 bookmarkButtons.forEach(function (bookmarkButton) {
     bookmarkButton.addEventListener('click', function (event) {
         var recipeBox = event.target.closest('.box');
         if (recipeBox) {
             var recipeId = recipeBox.id;
-            var recipeName = recipeBox.querySelector('.box-content span').innerText;
+            var recipeName = recipeBox.querySelector('.box-content ').innerText;
 
             if (bookmarkButton.classList.contains('bookmarked')) {
                 bookmarkButton.classList.remove('bookmarked');
                 removeBookmarkedRecipe(recipeId);
+                alert('Recipe unbookmarked: ' + recipeName); 
             } else {
                 bookmarkButton.classList.add('bookmarked');
                 saveBookmarkedRecipe(recipeId, recipeName);
+                alert('Recipe bookmarked: ' + recipeName); 
             }
         }
     });
@@ -179,7 +180,6 @@ function saveBookmarkedRecipe(recipeId, recipeName) {
     var bookmarkedRecipes = JSON.parse(localStorage.getItem('bookmarkedRecipes')) || [];
     bookmarkedRecipes.push({ id: recipeId, name: recipeName });
     localStorage.setItem('bookmarkedRecipes', JSON.stringify(bookmarkedRecipes));
-    alert('Recipe bookmarked: ' + recipeName);
 }
 
 function removeBookmarkedRecipe(recipeId) {
@@ -200,6 +200,47 @@ document.addEventListener('DOMContentLoaded', function () {
             bookmarkButton.classList.add('bookmarked');
         }
     });
+});
+
+
+
+//search bar functionality
+
+document.addEventListener('DOMContentLoaded', function () {
+    var searchIcon = document.querySelector('.search-icon button');
+    var searchinput = document.getElementById('search-input'); 
+
+    var recipeToInstructionPage = {
+        'Red Chilli Powder': 'red_chilli_powder_instructions.html',
+        'Feta cheese': 'feta_cheese_instructions.html',
+        'Maharashtrain Meal': 'maharashtrain_meal_instructions.html',
+        'Punjabi Thali': 'punjabi_thali_instructions.html',
+        'Grilled Chesse Sandwich': 'grilled_chesse_sandwich_instructions.html',
+        'Lassi': 'lassi_instructions.html',
+        'Lemonade': 'lemonade_instructions.html',
+        'Misal Pav': 'misal_pav_instructions.html',
+        'Kaju Paneer': 'http://127.0.0.1:3000/instruction/ins.html' 
+    };
+
+    
+    searchIcon.addEventListener('click', function () {
+        
+        var selectedRecipe = searchinput.value.trim();
+        
+       
+        if (recipeToInstructionPage.hasOwnProperty(selectedRecipe)) {
+            
+            var instructionPage = recipeToInstructionPage[selectedRecipe];
+            
+            
+            window.location.href = instructionPage;
+        } else {
+            
+            alert('Recipe not found!');
+        }
+    });
+
+   
 });
 
 

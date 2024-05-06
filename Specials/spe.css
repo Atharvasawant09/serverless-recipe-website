@@ -91,6 +91,14 @@
 
 }
 
+.box-content a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+
 .separation{
     margin: 10px 0;
 

@@ -192,7 +192,7 @@ button{
 .select{
     font-weight: 700;
     background: #ffbf11;
-    color:#1c1c1c;
+    color:black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -372,6 +372,13 @@ button{
 .box-content{
     margin-top: 185px;
     margin-left: 12px;
+}
+
+.box-content a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 600;
 }
 
 .box-content span{
